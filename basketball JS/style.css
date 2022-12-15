@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.main h1 {
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+}
+
+.container {
+    background: #1B244A;
+    width: 575px;
+    min-height: 385px;
+    margin: 0 auto;
+    border-radius: 0px;
+    position: relative;
+    top: 30px;
+    border: 4px solid #1B244A;
+}
+
+.newcontainer {
+    display: flex;
+}
+
+.newcontainer h1 {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    color: #EEEEEE;
+    border-radius: nullpx;
+    height: 36px;
+    width: 149px;
+    border-radius: nullpx;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+.p1 {
+    background: black;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: myfont;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#count_el1,
+#count_el2 {
+    margin-top: 21px;
+    margin-bottom: 26px;
+}
+
+.home,
+.guest {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.home input,
+.guest input {
+    height: 45px;
+    width: 45px;
+    margin: 2px;
+    text-align: center;
+    color: #9AABD8;
+    background: transparent;
+    border: 1px solid #9AABD8;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+}
+
+.home input:hover,
+.guest input:hover {
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+.lead {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    /* font-size: 30px;
+    font-weight: 500; */
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35.89px;
+    text-align: center;
+    color: #EEEEEE;
+    border-radius: nullpx;
+    height: 36px;
+    width: 149px;
+}

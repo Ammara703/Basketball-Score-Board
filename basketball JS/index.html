@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreBoard App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Basketball score board</h1>
+
+        <div class="container">
+            <div class="newcontainer">
+                <div class="home">
+                    <h1>Home</h1>
+                    <p class="p1" id="count_el1">0</p>
+                    <input type="button" value="+1" onclick="add1()">
+                    <input type="button" value="+2" onclick="add2()">
+                    <input type="button" value="+3" onclick="add3()">
+                    <br>
+                    <input type="button" value="-1" onclick="sub1()">
+                    <input type="button" value="-2" onclick="sub2()">
+                    <input type="button" value="-3" onclick="sub3()">
+                </div>
+
+                <div class="guest">
+                    <h1>Guest</h1>
+                    <p class="p1" id="count_el2">0</p>
+                    <input type="button" value="+1" onclick="sum1()">
+                    <input type="button" value="+2" onclick="sum2()">
+                    <input type="button" value="+3" onclick="sum3()">
+                    <br>
+                    <input type="button" value="-1" onclick="mins1()">
+                    <input type="button" value="-2" onclick="mins2()">
+                    <input type="button" value="-3" onclick="mins3()">
+                </div>
+            </div>
+            <p class="lead" id="lead_el"></p>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
